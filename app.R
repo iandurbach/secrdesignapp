@@ -5,6 +5,8 @@
 library(secrdesign)
 library(shinyjs)
 
+x <- 2
+
 secrversion <- packageVersion('secr')
 secrdesignversion <- packageVersion('secrdesign')
 if (compareVersion(as.character(secrdesignversion), '2.5.7') < 0)
